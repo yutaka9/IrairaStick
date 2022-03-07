@@ -1,0 +1,104 @@
+h1 {
+    width: 500px;
+    left: 300px;
+    position: relative;
+    text-align: center;
+}
+h2 {
+    height: 300px;
+    width: 530px;
+    position: relative;
+    left: 300px;
+    background-color: gray;
+}
+div {
+    background-color: red;
+}
+#top {
+    height: 20px;
+    width: auto;
+}
+#bottom {
+    height: 20px;
+    position: relative;
+    top: 280px;
+    width: auto;
+}
+#left {
+    height: 260px;
+    width: 20px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+#right {
+    height: 300px;
+    width: 20px;
+    position: absolute;
+    left: 510px;
+    top: 0px;
+    z-index: 0;
+}
+#wall1 {
+    height: 270px;
+    width: 20px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    z-index: 0;
+}
+#wall2 {
+    height: 270px;
+    width: 20px;
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    z-index: 0;
+}
+#wall3 {
+    height: 270px;
+    width: 20px;
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    z-index: 0;
+}
+#wall4 {
+    height: 270px;
+    width: 20px;
+    position: absolute;
+    left: 400px;
+    top: 0px;
+    z-index: 0;
+}
+#goal { 
+    font-size: 5px;
+    background-color:yellow;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    left: 470px;
+    top: 20px;
+    z-index: 0;
+}
+#gameover {
+    line-height:300px;
+    text-align: center;
+    background-color: red;
+    height: 320px;
+    width: 530px;
+    position: absolute;
+    top: 0px;
+    z-index: -5;
+}
+#clear {
+    line-height:300px;
+    text-align: center;
+    background-color: yellow;
+    height: 320px;
+    width: 530px;
+    position: absolute;
+    top: 0px;
+    z-index: -5;
+}
