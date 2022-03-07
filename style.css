@@ -72,6 +72,38 @@ div {
     top: 0px;
     z-index: 0;
 }
+#wall5 {
+    height: 20px;
+    width: 200px;
+    position: absolute;
+    left: 320px;
+    top: 50px;
+    z-index: 0;
+}
+#wall6 {
+    height: 20px;
+    width: 200px;
+    position: absolute;
+    left: 320px;
+    top: 200px;
+    z-index: 0;
+}
+#wall7 {
+    height: 20px;
+    width: 200px;
+    position: absolute;
+    left: 320px;
+    top: 130px;
+    z-index: 0;
+}
+#wall8 {
+    height: 20px;
+    width: 200px;
+    position: absolute;
+    left: 320px;
+    top: 260px;
+    z-index: 0;
+}
 #goal { 
     font-size: 5px;
     background-color:yellow;
